@@ -1,0 +1,236 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html { 
+	font-family: 'Inter', sans-serif; 
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+body {
+    background-color: black;
+    color: white;
+    min-height: 97vh;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top-container {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.topnav-left {
+  float: left;
+}
+
+.topnav a:hover {
+    color: #32a852;
+}
+
+.body-link {
+    color: #32a852;
+    text-decoration: none;
+}
+.container {
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.title-text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 40%;
+}
+
+/* Spoiler Box Pure CSS by IGNIEL.COM */
+.ignielSpoiler {
+    display: block;
+}
+
+.ignielSpoiler .sbutton {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    -moz-border-radius: 3px;
+}
+
+.ignielSpoiler .sbody {
+    background: #363636; /* Warna background isi spoiler */
+    pointer-events: auto;
+    visibility: hidden;
+    opacity: 0;
+    height: 0px;
+    transition: all .5s ease;
+    border-radius: 10px;
+}
+
+.ignielSpoiler .sbutton:focus + .sbody {
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    margin: 10px 0px 5px;
+    padding: 20px;
+    transition: all .5s ease;
+}
+
+.spoiler-text {
+    margin-top: 50px;
+}
+
+.body-right {
+  float: right;
+}
+
+.body-left {
+  float: left;
+}
+
+.btn_main {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn_main:hover {
+    border: 1px solid #adc9ff;
+    color: #adc9ff;
+}
+
+.info-card {
+    background-color: #363636;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.info-card-right {
+    background-color: #363636;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 25px;
+    float: right;
+    width: 49%;    
+}
+
+.info-card-left {
+    background-color: #363636;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 25px;
+    float: left;
+    width: 49%;    
+}
+
+.info-card-blu-bg {
+    background-color: #002f6c;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.info-card-pink-bg {
+    background-color: #560027;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.card-icon {
+    vertical-align: middle;
+}
+
+.card-title {
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: bottom;
+}
+
+hr {
+  border: 1px solid #616161;
+  border-radius: 5px;
+}
+
+.socioicon {
+    color: white;
+}
+
+.socioicon:hover {
+    color: black;
+}
+
+.big_choon {
+    height: 20px;
+}
+
+.btn_socio {
+    background-color: 363636;
+    border-radius: 12px;
+    color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 225px;
+}
+
+.btn_socio:hover {
+    background-color: #adc9ff;
+    color: black;
+}
